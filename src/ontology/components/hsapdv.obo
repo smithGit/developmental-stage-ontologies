@@ -1081,7 +1081,6 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000203 {notes="debatable"} ! ninth LMP month stage
 relationship: immediately_preceded_by HsapDv:0000074 ! 37th week post-fertilization stage
 property_value: start_dpf "259.0" xsd:float
-property_value: end_dpf "266.0" xsd:float
 
 [Term]
 id: HsapDv:0010000
