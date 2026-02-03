@@ -3303,12 +3303,12 @@ property_value: start_ypb "30.0" xsd:float
 id: HsapDv:0000239
 name: fifth decade stage
 namespace: human_developmental_stage
-def: "Human stage that refers to an individual who is over 40 and under 50 years old." [Bgee:curator]
+def: "Human stage that refers to an individual who is over 40 and less than or equal to 50 years old." [Bgee:curator]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000238 ! fourth decade stage
 relationship: part_of HsapDv:0000267 ! middle aged stage
 property_value: end_ypb "50.0" xsd:float
-property_value: start_ypb "40.0" xsd:float
+property_value: start_ypb "41.0" xsd:float
 
 [Term]
 id: HsapDv:0000240
