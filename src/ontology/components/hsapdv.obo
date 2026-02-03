@@ -2217,7 +2217,7 @@ def: "Adult stage that refers to an adult who is over 40 and under 41 years old.
 subset: granular_stage
 xref: EV:0300093
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: part_of HsapDv:0000239 ! fifth decade stage
+relationship: part_of HsapDv:0000239 ! fourth decade stage
 relationship: immediately_preceded_by HsapDv:0000133 ! 39-year-old stage
 
 [Term]
@@ -2383,7 +2383,7 @@ def: "Middle aged stage that refers to an adult who is over 50 and under 51 year
 subset: granular_stage
 xref: EV:0300103
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: part_of HsapDv:0000240 ! sixth decade stage
+relationship: part_of HsapDv:0000240 ! fifth decade stage
 relationship: immediately_preceded_by HsapDv:0000143 ! 49-year-old stage
 
 [Term]
@@ -3303,11 +3303,11 @@ property_value: start_ypb "30.0" xsd:float
 id: HsapDv:0000239
 name: fifth decade stage
 namespace: human_developmental_stage
-def: "Human stage that refers to an individual who is over 40 and less than or equal to 50 years old." [Bgee:curator]
+def: "Human stage that refers to an individual who is at least 41 and less than 51 years old." [Bgee:curator]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000238 ! fourth decade stage
 relationship: part_of HsapDv:0000267 ! middle aged stage
-property_value: end_ypb "50.0" xsd:float
+property_value: end_ypb "50.9" xsd:float
 property_value: start_ypb "41.0" xsd:float
 
 [Term]
