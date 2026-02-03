@@ -50,7 +50,7 @@ def: "Prenatal stage that starts with fertilization and ends with a fully formed
 comment: By embryo we mean in the sense of up to the 8th week postfertilization (over 7 and under 8 weeks), we treat fetus as a separate stage.
 synonym: "first trimester" RELATED [http://en.wikipedia.org/wiki/Gestational_age]
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: part_of HsapDv:0000045 ! prenatal stage
+relationship: part_of HsapDv:0000045 ! prenatal stagef
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "56.0" xsd:float
 xref: HP:0011460
